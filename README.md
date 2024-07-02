@@ -2,14 +2,15 @@
 ## Neural Networks and Deep Learning
 
 I. Introduction: 
-    Pneumonia is a critical global health concern, demanding early and accurate detection for effective treatment. This project introduces a novel method for pneumonia detection 
-    using Convolutional Neural Networks (CNNs). Leveraging CNNs, the model has been trained on a substantial dataset of chest X-ray images and evaluated on a separate test set. 
-    The goal is to improve accuracy and efficiency in diagnosing pneumonia, a potentially life-threatening lung infection affecting millions annually.
-
+   Pneumonia poses a significant global health challenge, necessitating precise and prompt identification for effective medical intervention. This project introduces an innovative approach 
+   to detect pneumonia using Convolutional Neural Networks (CNNs). By harnessing the power of CNNs, the model has been trained on a large dataset comprising chest X-ray images and rigorously 
+   assessed using an independent test dataset. The objective is to enhance the precision and effectiveness of pneumonia diagnosis, addressing a critical need in the diagnosis of this severe 
+   lung infection that impacts millions of people each year.
+   
 II. Model Objective:
-    The primary objective is to develop an automated pneumonia detection system using CNNs. The model is designed to analyze chest X-ray images, discerning the presence of pneumonia 
-    with high accuracy. Early diagnosis is paramount for timely intervention and prevention of complications. The CNN-based approach provides a promising solution to enhance pneumonia detection,
-    aiding healthcare professionals in their decision-making process.
+    The main goal is to create a CNN-based system for automated pneumonia detection. This model is specifically engineered to analyze chest X-ray images and accurately identify the presence 
+    of pneumonia. Early detection is crucial for timely treatment and preventing complications. By leveraging CNN technology, this approach offers a promising solution to improve pneumonia 
+    detection, supporting healthcare professionals in making informed decisions.
 
 III. Dataset Description:
     The dataset consisted of a total of 5863 Chest X-ray images belonging to 2 classes - Pneumonia / Normal.
