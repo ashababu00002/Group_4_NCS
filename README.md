@@ -1,4 +1,4 @@
-# Pneumonia-Detection-using-CNN
+# Pneumonia Detection using Deep Learning
 ## Neural Networks and Deep Learning
 
 I. Introduction: 
@@ -15,17 +15,26 @@ II. Model Objective:
 III. Dataset Description:
     The dataset consisted of a total of 5863 Chest X-ray images belonging to 2 classes - Pneumonia / Normal.
     
-    1. Train Dataset - 5216 Images (Pneumonia :3875 + Normal: 1341)
-    2. Test Dataset - 624 Images   (Pneumonia: 390 + Normal: 234 )
-    3. Validation Dataset - 16 Images (Pneumonia: 8 + Normal: 8)
+   1. Train Dataset - 5216 Images (Pneumonia :3875 + Normal: 1341)
+   2. Test Dataset - 624 Images   (Pneumonia: 390 + Normal: 234 )
+   3. Validation Dataset - 16 Images (Pneumonia: 8 + Normal: 8)
 
-IV. Challenges Addressed:
+IV. Requirements:
+    The following libraries are required to run this project.
+    1. Python 3.18
+    2. PyTorch
+    3. torchvision
+    4. matplotlib
+    5. numpy
+    6. PIL
+    
+V. Challenges Addressed:
     The project addresses several key challenges in pneumonia detection:
 
-    1. Data Pre-processing: Standardizing image sizes, pixel normalization, and data augmentation to prepare the dataset for training.
-    2. Handliong class imbalace: Oversampled normal images dataset to equalize with Pneumonia dataset.
-    3. Transfer learning: Designing an effective CNN architecture that can learn and extract relevant features from X-ray images.
-    4. Evaluation Metrics: Establishing robust evaluation metrics to accurately assess the model's performance.
-    5. k-fold cross validation and Hypertuning: Used to assess the performance and generalization ability of a machine learning model.  
+   1. Data Pre-processing: Standardizing image sizes, pixel normalization, and data augmentation to prepare the dataset for training.
+   2. Handliong class imbalace: Oversampled normal images dataset to equalize with Pneumonia dataset.
+   3. Transfer learning: Designing an effective CNN architecture that can learn and extract relevant features from X-ray images.
+   4. Evaluation Metrics: Establishing robust evaluation metrics to accurately assess the model's performance.
+   5. k-fold cross validation and Hypertuning: Used to assess the performance and generalization ability of a machine learning model.  
        These are configuration variables that govern the training process and directly impact the performance of the model.
-    6. Bootstrap Aggregating:
+   6. Bootstrap Aggregating: The idea is to train models on slightly different datasets to capture different aspects of the data.
