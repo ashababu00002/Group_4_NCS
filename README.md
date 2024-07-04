@@ -2,7 +2,7 @@
 
 # Introduction
  Pneumonia poses a significant global health challenge, necessitating precise and prompt identification for effective medical intervention. This project introduces an innovative approach 
- to detect pneumonia using Convolutional Neural Networks (CNNs). By harnessing the power of CNNs, the model has been trained on a large dataset comprising chest X-ray images and rigorously 
+ to detect pneumonia using Convolutional Neural Networks (CNNs). By harnessing the power of CNNs,the model has been trained on a large dataset comprising chest X-ray images and rigorously 
  assessed using an independent test dataset. The objective is to enhance the precision and effectiveness of pneumonia diagnosis, addressing a critical need in the diagnosis of this severe 
  lung infection that impacts millions of people each year.
    
